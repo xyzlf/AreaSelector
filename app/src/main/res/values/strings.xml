@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AreaSelector</string>
+
+    <string name="area_button">请选择城市</string>
+    <string name="area_text">您选择了：%1$s</string>
+    <string name="area_select_none">未选择城市</string>
+</resources>
