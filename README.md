@@ -1,18 +1,20 @@
 # AreaSelector
-仿IOS的地区选择器，二级联动，也支持三级联动。选择器控件使用了开源项目：<https://github.com/saiwu-bigkoo/Android-PickerView/>，感谢这位童鞋的无私分享。因为该开源项目没有一份完整的地区信息，我从网上找了一份数据，该份数据只有二级地区，供学习参考。
+仿IOS的地区选择器，二级联动，也支持三级联动。选择器控件使用了开源项目：<https://github.com/saiwu-bigkoo/Android-PickerView/>，感谢这位童鞋的无私分享。
+
+因为该开源项目没有一份完整的地区信息，我从网上找了一份数据，该份数据只有二级地区，供学习参考。
 
 # 使用
 
 欢迎clone代码看看，源码面前，了无秘密。
 
-(1)引用开源控件库，这里需要解析json数据，所以加入了gson库：  
+（1）引用开源控件库，这里需要解析json数据，所以加入了gson库：  
 
 	//PickerView
     compile 'com.bigkoo:pickerview:2.1.1'
     //goson
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 	
-(2)查看MainActivity.class里面的initData()部分。
+（2）查看MainActivity.class里面的initData()部分。
 
 # 效果图
 <img src="area.png"/>
